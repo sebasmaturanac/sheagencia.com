@@ -9,16 +9,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
-
-body{
-    font-family: 'Exo', sans-serif;
-   
-}
-
 
 .context {
     width: 100%;
@@ -169,10 +169,11 @@ body{
   }
 }
 
-
 /* Styles Begins */
+
+
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   overflow-x: hidden;
 }
 .btn-xl {
@@ -198,13 +199,20 @@ body {
 .listitem{  
   list-style: none;
   text-align: justify;
-  font-size: 18px;
+  font-size: 15px;
   
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-weight: 700;
+h1,h2,h3,h4,h5, p {
+
+  font-family: 'Oswald', sans-serif;
+
 }
+
+.client {
+  color: whitesmoke;
+}
+
 .block-heading {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -216,15 +224,13 @@ h1,h2,h3,h4,h5,h6 {
   width: 50%;
 }
 
-
-
-
 span {
 	color: #fff;
 	vertical-align: middle;
 	margin-left: 9px;
 	font-size: 24px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Oswald', sans-serif;
+
 	text-transform: capitalize;
 }
 
@@ -336,7 +342,7 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
 }
 #Banner .content-wrap h2 {
   opacity: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 20px;
   color: white;
   font-size: 35px;
@@ -352,7 +358,7 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
 }
 
 .about-img {
-  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  width: 120%; /* Ajusta el ancho de la imagen al 100% del contenedor */
   height: auto; /* Ajusta la altura de la imagen de manera proporcional */
 }
 
