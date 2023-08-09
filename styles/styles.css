@@ -147,8 +147,6 @@ body{
 
 }
 
-
-
 .cursor{
   display: block;
   position: absolute;
@@ -207,6 +205,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 .block-heading {
+  margin-top: 30px;
   margin-bottom: 40px;
   text-align: center;
   color: rgb(33, 37, 41);
