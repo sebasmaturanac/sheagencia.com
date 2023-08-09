@@ -354,6 +354,13 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
   width: 130%;
 }
 
+@media (max-width: 991px) {
+  .about-img {
+    width: 100%; /* Cambia el ancho de la imagen al 50% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen de manera proporcional */
+  }
+}
+
 #Banner .btn-primary {
   background-color: #02ccba;
   color: #fff;
