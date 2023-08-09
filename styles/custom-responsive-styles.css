@@ -1,10 +1,9 @@
-/*Extra small devices (portrait phones, less than 576px)*/
+resolved/*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
   .content-section {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-
   
   .logo-img {
    width: 90%;
@@ -140,6 +139,31 @@
     margin-right: 10px;
   }
 }
+
+/* Media query para tabletas */
+@media (max-width: 768px) {
+  .about-img {
+    width: 70%; /* Cambia el ancho de la imagen al 70% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen de manera proporcional */
+  }
+}
+
+/* Media query para dispositivos móviles en orientación vertical */
+@media (max-width: 576px) {
+  .about-img {
+    width: 90%; /* Cambia el ancho de la imagen al 90% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen de manera proporcional */
+  }
+}
+
+/* Media query para dispositivos móviles en orientación horizontal */
+@media (max-width: 480px) {
+  .about-img {
+    width: 95%; /* Cambia el ancho de la imagen al 95% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen de manera proporcional */
+  }
+}
+
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .content-section {

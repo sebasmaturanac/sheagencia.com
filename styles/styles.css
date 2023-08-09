@@ -16,6 +16,7 @@
 
 body{
     font-family: 'Exo', sans-serif;
+   
 }
 
 
@@ -294,7 +295,7 @@ span {
   z-index: 99;
 }
 .menu-toggle {
-  position: fixed;
+  position: absolute;
   right: 15px;
   top: 15px;
   width: 50px;
@@ -350,16 +351,12 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
   height: auto;
 }
 
-.about-img{
-  width: 130%;
+.about-img {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Ajusta la altura de la imagen de manera proporcional */
 }
 
-@media (max-width: 991px) {
-  .about-img {
-    width: 100%; /* Cambia el ancho de la imagen al 50% del contenedor */
-    height: auto; /* Ajusta la altura de la imagen de manera proporcional */
-  }
-}
+
 
 #Banner .btn-primary {
   background-color: #02ccba;
