@@ -211,6 +211,7 @@ h1,h2,h3,h4,h5, p {
 
 .client {
   color: whitesmoke;
+  /* margin-left: 60px; */
 }
 
 .block-heading {
@@ -604,9 +605,10 @@ background: linear-gradient(to left, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Fi
   color: #fff;
 }
 #customers-testimonials .item {
+  width: 100%;
   text-align: center;
-  padding: 50px;
-  margin-bottom: 80px;
+  padding: 8px;
+  margin-bottom: 0px;
   opacity: .2;
   -webkit-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1);
@@ -622,7 +624,7 @@ background: linear-gradient(to left, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Fi
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
   max-width: 950px;
-  margin: 0 auto 17px;
+  margin: 0 auto -30px;
 }
 
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
